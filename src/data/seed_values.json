@@ -1,0 +1,7 @@
+{
+  "seed_values":[
+    { "id": 1, "title": "Water the plants", "assignee": "Daughter", "completed": true },
+    { "id": 2, "title": "Withdraw cash from bank", "assignee": "Dad", "completed": false },
+    { "id": 3, "title": "Take out the trash", "assignee": "Mom", "completed": false }
+  ]
+}
