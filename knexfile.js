@@ -8,7 +8,7 @@ module.exports = {
     client: "pg",
     connection: {
       host: "localhost",
-      port: 5432,
+      port: 5433,
       database: "todo",
       user: "kalkarshivam",
       password: "password",

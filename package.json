@@ -11,7 +11,7 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "start": "node ./src/index.js",
+    "start": "npx knex seed:run && node ./src/index.js",
     "dev": "nodemon ./src/index.js",
     "lint": "eslint --fix --ext .js .",
     "test": "npx knex seed:run && mocha test && npm run lint"
